@@ -1,3 +1,5 @@
+import LinearAlgebra as LA
+
 function polar(A)
     (U, _, V) = LA.svd(A)
     U * V'
